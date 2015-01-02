@@ -1,0 +1,233 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Geo);
+@import url(http://fonts.googleapis.com/css?family=Rambla);
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+
+@import url(http://fonts.googleapis.com/css?family=Orbitron:400,500,700,900);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,600,700,900);
+
+
+@font-face{
+	font-family:"F+UD-NewRodin-M";
+	src:url("font/F+UD-NewRodin-M.otf") format("truetype");
+}
+	
+@font-face{
+	font-family:"F+UD-NewRodin-DB";
+	src:url("font/F+UD-NewRodin-DB.otf") format("truetype");
+}
+	
+@font-face{
+	font-family:"F+UD-NewRodin-B";
+	src:url("font/F+UD-NewRodin-B.otf") format("truetype");
+}
+	
+@font-face{
+	font-family:"F+UD-Seurat-M";
+	src:url("font/F+UD-Seurat-M.otf") format("opentype");
+}
+
+.copyright{
+	border-top:#d3d3d3 1px solid;
+}
+
+#map_canvas{
+max-width:1024px;
+border:8px solid #ccc;
+border-radius:6px;
+}
+
+body
+{ background: #fafafa;
+/*font-family: 'Orbitron','Oxygen','Rambla','Geo','Open Sans', sans-serif;*/
+font-family:sans-serif;}
+
+
+/*h1,h2,h3,h4,h5{
+font-family:"F+UD-Seurat-M";
+}*/
+
+.name h1,
+h1,
+.top-bar{
+font-family: 'Orbitron';
+}
+
+
+.name h1:first-letter{
+	color:#2a98b4;
+}
+
+.padd125{
+padding:1.25em;
+}
+
+/*body:before {
+    content: "";
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    width: 110%;
+    height: 10px;
+ 
+    -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+    -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+    -ms-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+    -o-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+    box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+    z-index: 100;
+}
+
+.top-bar ul > li a:not(.button),
+.top-bar ul > li.has-dropdown a:after ,
+.top-bar ul > li.has-dropdown .dropdown li a,
+.top-bar ul > li:not(.name):hover a,
+.top-bar ul > li:not(.name).active a,
+.top-bar ul > li:not(.name):focus a ,
+.button
+{ color: #fafafa;}
+
+body,h1, h2, h3, h4, h5, h6
+{color: #3c3c3c;}
+
+
+
+.top-bar,
+.top-bar ul > li.has-button:hover, .top-bar ul > li.has-button:focus ,
+.top-bar ul > li.search:hover, .top-bar ul > li.search:focus ,
+.top-bar ul > li.login:hover, .top-bar ul > li.login:focus ,
+.top-bar ul > li.has-dropdown .dropdown ,
+.top-bar ul > li.has-dropdown .dropdown li 
+{ background: #3c3c3c;}
+
+.top-bar ul > li:not(.name):hover, .top-bar ul > li:not(.name).active, .top-bar ul > li:not(.name):focus ,
+.top-bar ul > li.has-dropdown .dropdown li.divider ,
+.top-bar ul > li.has-dropdown .dropdown li.active a 
+{ background: #4e4e4e;}
+
+.top-bar ul > li.divider ,
+.top-bar ul > li.has-dropdown .dropdown li a:hover, .top-bar ul > li.has-dropdown .dropdown li a:focus
+{background: #79a0c0;}
+*/
+.row.full-width {
+max-width: 100%;
+}
+
+.button{
+box-shadow:none;
+background:#2a98b4;
+}
+
+.button:hover,
+.button:focus{
+background:#1f768c;
+}
+
+.top-bar-section > ul > .divider{
+
+border-right: solid 1px #2a98b4;
+border-left: solid 1px #1f768c;
+}
+
+.panel2 {
+
+margin-bottom: 1.25em;
+padding: 1.25em;
+
+}
+
+
+
+.socialpanel{
+	background:none;
+	margin:0;
+	height:60px;
+	color:#343434;
+	border:0px;
+	border-left: dotted 1px #2a98b4;
+}
+.socialpanel:hover{
+	background: url(../image/hash.png) 100% 0% repeat rgba(180, 180, 180, 0.2);
+}
+
+.socialpanel h2{
+	margin:0;
+}
+
+
+
+.border-top{
+	border-top:1px dotted #2a98b4;
+
+}
+
+footer{
+	padding:0;
+	background:#111;
+}
+footer,
+footer a{
+	color:#fff;
+}
+
+footer a{
+	font-weight: bold;
+}
+
+footer ul{
+width: auto;
+height: auto !important;
+display: block;
+font-size: 16;
+margin: 0;
+list-style: none;
+font-family: 'Orbitron';
+}
+
+footer ul li{
+float: left;
+}
+
+footer ul li a{
+padding: 0 15px;
+line-height: 45px;
+background: #111;
+display: block;
+width: 100%;
+color: #fff;
+
+padding-left: 15px;
+font-size: 0.8125em;
+font-weight: bold;
+}
+
+.adsbygoogle{
+margin-right:40px;
+}
+.border-left_blue{
+	border-left: solid 1px #2a98b4;
+}
+
+.border-right_blue{
+	border-right: solid 1px #2a98b4;
+}
+
+
+.has-tip i{
+	font-size:28px;
+	color:#343434;
+}
+
+.has-tip i:hover{
+	color:#2a98b4;
+}
+
+
+
+
+@media only screen {
+  .button {
+    -webkit-transition: background-color 150ms ease-out;
+    -moz-transition: background-color 150ms ease-out;
+    transition: background-color 150ms ease-out; }
+}
